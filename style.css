@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+    padding: 30px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+table th {
+    background: #007bff;
+    color: white;
+}
+
+.btn,
+.btn-edit,
+.btn-delete,
+.btn-cancel {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn {
+    background: #007bff;
+}
+
+.btn-edit {
+    background: #28a745;
+}
+
+.btn-delete {
+    background: #dc3545;
+}
+
+.btn-cancel {
+    background: #6c757d;
+}
